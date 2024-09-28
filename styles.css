@@ -1,0 +1,138 @@
+body {
+  background-color: #435432;
+  font-family: "Playwrite DE Grund";
+}
+.products {
+  background-color: #28361a;
+  margin: 5px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+#c {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 8%;
+}
+#logocontainer {
+  margin-right: 15px;
+  margin-left: 15px;
+  float: right;
+}
+#logo {
+  width: 300px;
+  height: 90px;
+}
+
+.n {
+  margin-top: 0px;
+  background-color: #28361a;
+  color: #bfe0cc;
+  font-size: 13px;
+  font-family: "Playwrite DE Grund";
+}
+
+#b {
+  margin-top: 52px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 5px;
+  background-color: #487a56;
+  text-shadow: 0 0 5px #487a56;
+  transition: background-color 0.24s, color 0.25s;
+  font-size: 11px;
+  font-family: "Playwrite DE Grund";
+}
+
+#b:active {
+  background-color: #0d3b18;
+  color: #487a56;
+}
+.idk {
+  font-family: "Playwrite DE Grund";
+  color: white;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.intro {
+  color: white;
+  margin-left: 28px;
+  font-family: "Playwrite DE Grund";
+}
+
+#line {
+  clear: both;
+}
+
+#bar {
+  position: absolute;
+  top: 44px;
+  left: 23px; 
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  z-index: 1; 
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 18px;
+  align-items: center;
+}
+
+.i {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#nav-bar {
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  background-color: #324024;
+  top: 0;
+  left: 0; 
+  display: flex;
+  flex-direction: column; 
+  padding-top: 20px;
+  transform: translateX(0px);
+  transition: transform 0.5s ease;
+}
+
+#nav-bar.hidden {
+  transform: translateX(-200px);
+}
+
+#menu {
+  color: white;
+  margin-left: 21px;
+  margin-top: 50px;
+}
+
+#line2 {
+  width: 180px;
+  margin-top: -16px;
+}
+#nav-content{
+  text-decoration: none;
+  list-style: none;
+}
+#shop{
+  margin-top: 5px;
+}
+#posts{
+  margin-top: 5px;
+}
+
+
+
+
+
